@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UI_2023_JVC
 @namespace      https://www.jeuxvideo.com
-@version        4.5.1
+@version        4.5.5
 @description    Enleve les border radius abusifs de la mise à jour à jour décembre 2023 (JVC).
 @author         Atlantis
 @license        MIT
@@ -94,14 +94,6 @@
         background-color: transparent;
     }
 
-    /*
-    @media (min-width: 999px) {
-        .bloc-pre-pagi-forum {
-            padding-left: 0;
-            padding-right: 0;
-        }
-    }
-    */
 
     .btn-lancer-rech {
         border-top-right-radius: 0.3rem !important;
@@ -153,7 +145,7 @@
         border-radius: 0.5rem !important;
     }
 
-    .list-menu-profil * {
+    .menu-profil .list-menu-profil .lien-profil {
         border-radius: 0.5rem !important;
     }
 
@@ -182,21 +174,6 @@
     .link-articles-precedents.notif-prec {
         border-radius: 0.3rem;
     }
-
-    /* .infos-pseudo * {
-        border-radius: 0.5rem !important;
-    }
-
-    .content-img-avatar {
-        border-radius: 0.3rem !important;
-    }
-
-    .profile-card {
-        border-radius: 0.3rem !important;
-    }
-
-    */
-
 
     /* MP */
 
